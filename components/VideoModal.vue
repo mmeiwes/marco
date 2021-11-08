@@ -1,7 +1,7 @@
 <template>
 	<div
 		v-if="showModal"
-		class="fixed inset-0 flex items-center justify-center p-16 z-50"
+		class="fixed inset-0 flex items-center justify-center p-4 lg:p-16 z-50"
 	>
 		<button
 			tabindex="0"
@@ -68,7 +68,7 @@
 			leave-to-class="opacity-0 scale-70"
 			appear
 		>
-			<div v-if="showContent" class="relative p-16">
+			<div v-if="showContent" class="relative p-4 lg:p-16">
 				<slot></slot>
 			</div>
 		</transition>
