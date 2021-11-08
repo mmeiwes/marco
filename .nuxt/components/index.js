@@ -1,8 +1,8 @@
-export const FAQ = () => import('../../components/FAQ.vue' /* webpackChunkName: "components/f-a-q" */).then(c => wrapFunctional(c.default || c))
-export const QA = () => import('../../components/QA.vue' /* webpackChunkName: "components/q-a" */).then(c => wrapFunctional(c.default || c))
-export const TheFooter = () => import('../../components/TheFooter.vue' /* webpackChunkName: "components/the-footer" */).then(c => wrapFunctional(c.default || c))
-export const TheHeader = () => import('../../components/TheHeader.vue' /* webpackChunkName: "components/the-header" */).then(c => wrapFunctional(c.default || c))
-export const VideoModal = () => import('../../components/VideoModal.vue' /* webpackChunkName: "components/video-modal" */).then(c => wrapFunctional(c.default || c))
+export { default as FAQ } from '../../components/FAQ.vue'
+export { default as QA } from '../../components/QA.vue'
+export { default as TheFooter } from '../../components/TheFooter.vue'
+export { default as TheHeader } from '../../components/TheHeader.vue'
+export { default as VideoModal } from '../../components/VideoModal.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
