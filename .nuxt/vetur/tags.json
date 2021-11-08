@@ -1,0 +1,17 @@
+{
+  "FAQ": {
+    "description": "Auto imported from components/FAQ.vue"
+  },
+  "QA": {
+    "description": "Auto imported from components/QA.vue"
+  },
+  "TheFooter": {
+    "description": "Auto imported from components/TheFooter.vue"
+  },
+  "TheHeader": {
+    "description": "Auto imported from components/TheHeader.vue"
+  },
+  "VideoModal": {
+    "description": "Auto imported from components/VideoModal.vue"
+  }
+}
