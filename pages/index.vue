@@ -110,10 +110,29 @@
 				</div>
 
 				<VideoModal @close="videoIsEnabled = false" :open="videoIsEnabled">
-					<video v-if="videoIsEnabled" class="relative z-50" id="vid" ref="vid">
+					<!-- 	<video v-if="videoIsEnabled" class="relative z-50" id="vid" ref="vid">
 						<source src="/video/featured.mp4" type="video/mp4" />
 						Your browser does not support HTML video.
-					</video>
+					</video> -->
+					<div
+						class="
+							relative
+							w-screen
+							h-screen
+							flex
+							items-center
+							justify-center
+							p-8
+						"
+					>
+						<iframe
+							src="https://player.vimeo.com/video/643632059?h=87e3a81d89&autoplay=1&portrait=0"
+							style="top: 0; width: 90%; height: 90%; z-index: 40"
+							frameborder="0"
+							allow="autoplay; fullscreen; picture-in-picture"
+							allowfullscreen
+						></iframe></div
+					><script src="https://player.vimeo.com/api/player.js"></script>
 				</VideoModal>
 
 				<div
@@ -610,7 +629,7 @@ export default {
 			this.videoIsEnabled = true;
 
 			this.$nextTick(function () {
-				if (window.document) {
+				if (window.document && this.$refs.vid) {
 					console.log(this.$refs.vid);
 					this.$refs.vid.play();
 				}
