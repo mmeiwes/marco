@@ -7,11 +7,7 @@
 						class="
 							text-center text-3xl
 							font-extrabold
-							bg-clip-text
-							text-transparent
-							bg-gradient-to-r
-							from-purple-400
-							to-indigo-500
+							text-orange-500
 							sm:text-4xl
 							text-uppercase
 							font-display

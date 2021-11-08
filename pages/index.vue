@@ -4,9 +4,10 @@
 			<div>
 				<!-- Hero card -->
 				<div class="relative">
-					<div class="absolute inset-x-0 bottom-0 h-1/2 lg:bg-gray-100"></div>
+					<div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-900"></div>
 					<div
 						class="
+							pb-16
 							h-hero
 							max-w-7xl
 							mx-auto
@@ -19,18 +20,17 @@
 					>
 						<h2
 							class="
+								-mt-2
 								px-4
+								pt-1
 								lg:px-0
 								font-display
 								text-5xl
+								lg:text-6xl
 								tracking-tighter
 								uppercase
-								mb-8
-								bg-clip-text
-								text-transparent
-								bg-gradient-to-r
-								from-purple-400
-								to-indigo-600
+								mb-2
+								text-orange-500
 							"
 						>
 							Ein neues Lebensgefühl durch Bewegung.
@@ -134,46 +134,25 @@
 						></iframe></div
 					><script src="https://player.vimeo.com/api/player.js"></script>
 				</VideoModal>
+			</div>
 
-				<div
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 my-16">
+				<h1
 					class="
-						max-w-7xl
-						mx-auto
-						px-4
-						pb-12
-						sm:px-6
-						lg:px-8
-						relative
-						z-10
-						mt-8
-						lg:-mt-20
+						text-center
+						block
+						font-bold
+						uppercase
+						font-display
+						text-2xl
+						mt-4
 					"
 				>
-					<h1
-						class="
-							text-center
-							block
-							font-bold
-							uppercase
-							font-display
-							text-2xl
-							mb-8
-						"
-					>
-						<span
-							class="
-								bg-clip-text
-								text-transparent
-								bg-gradient-to-r
-								from-purple-400
-								to-indigo-600
-							"
-							>Personal Training</span
-						>
-						in Hövelhöf und Kreis Paderborn
-					</h1>
+					<span class="text-orange-500">Personal Training</span>
+					in Hövelhöf und Kreis Paderborn
+				</h1>
 
-					<!--    <div
+				<!--    <div
                   class="
                     mt-6
                     grid grid-cols-2
@@ -217,11 +196,10 @@
                     Kraft
                   </div>
                 </div> -->
-				</div>
 			</div>
 
 			<section id="about">
-				<div class="relative pt-16 overflow-hidden">
+				<div class="relative overflow-hidden">
 					<div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div>
 					<div class="relative">
 						<div
@@ -246,16 +224,7 @@
 											"
 										>
 											Marco Meiwes
-											<span
-												class="
-													bg-clip-text
-													text-transparent
-													bg-gradient-to-r
-													from-purple-400
-													to-indigo-500
-												"
-												>Personal Trainer</span
-											>
+											<span class="text-orange-500">Personal Trainer</span>
 										</h2>
 										<p class="mt-4 text-lg text-gray-500">
 											Hey, ich bin Marco und ich bin Personal Trainer aus
@@ -299,10 +268,7 @@
 												href="mailto:marco-meiwes@web.de"
 												class="
 													inline-flex
-													bg-gradient-to-r
-													from-purple-600
-													to-indigo-600
-													bg-origin-border
+													bg-orange-500 bg-origin-border
 													px-4
 													py-2
 													border border-transparent
@@ -311,7 +277,6 @@
 													shadow-sm
 													rounded-full
 													text-white
-													hover:from-purple-700 hover:to-indigo-700
 												"
 											>
 												Jetzt kontaktieren
@@ -408,10 +373,7 @@
 												href="mailto:marco-meiwes@web.de"
 												class="
 													inline-flex
-													bg-gradient-to-r
-													from-purple-600
-													to-indigo-600
-													bg-origin-border
+													bg-orange-500 bg-origin-border
 													px-4
 													py-2
 													border border-transparent
@@ -502,11 +464,7 @@
 							text-3xl
 							lg:text-5xl
 							font-display font-extrabold
-							bg-clip-text
-							text-transparent
-							bg-gradient-to-r
-							from-purple-500
-							to-indigo-600
+							text-orange-500
 							uppercase
 						"
 					>

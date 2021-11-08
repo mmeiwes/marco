@@ -98,21 +98,16 @@
 						href="mailto:marco-meiwes@web.de"
 						class="
 							ml-8
-							whitespace-nowrap
 							inline-flex
-							items-center
-							justify-center
-							px-5
+							bg-orange-500 bg-origin-border
+							px-4
 							py-2
 							border border-transparent
-							shadow-sm
-							rounded-full
 							text-base
 							font-medium
+							shadow-sm
 							text-white
-							bg-gradient-to-r
-							from-purple-600
-							to-indigo-600
+							rounded-full
 						"
 					>
 						Jetzt kontaktieren
@@ -222,8 +217,8 @@
 								class="
 									inline-flex
 									bg-gradient-to-r
-									from-purple-600
-									to-indigo-600
+									from-yellow-500
+									to-red-700
 									bg-origin-border
 									px-4
 									py-2
