@@ -1,0 +1,21 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/f-a-q.js": "components/f-a-q.js",
+    "components/q-a.js": "components/q-a.js",
+    "components/video-modal.js": "components/video-modal.js",
+    "pages/datenschutz.js": "pages/datenschutz.js",
+    "pages/impressum.js": "pages/impressum.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/f-a-q.js": "components/f-a-q.js.map",
+    "components/q-a.js": "components/q-a.js.map",
+    "components/video-modal.js": "components/video-modal.js.map",
+    "pages/datenschutz.js": "pages/datenschutz.js.map",
+    "pages/impressum.js": "pages/impressum.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
