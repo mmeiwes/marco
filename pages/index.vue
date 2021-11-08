@@ -7,7 +7,7 @@
 					<div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-900"></div>
 					<div
 						class="
-							pb-16
+							lg:pb-16
 							h-hero
 							max-w-7xl
 							mx-auto
@@ -66,7 +66,7 @@
 										left-10
 										bottom-1/2
 										transform
-										-translate-y-1/2
+										-translate-y-20
 										h-28
 										w-28
 										block
