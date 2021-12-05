@@ -10,12 +10,37 @@
 							inset-x-0
 							bottom-0
 							h-1/2
-							bg-gray-900
+							bg-hero
+						"
+					></div>
+					<div
+						class="
+							absolute
+							inset-x-0
+							bottom-0
+							h-1/2
+							z-10
+							backdrop-filter backdrop-blur-lg
+						"
+					></div>
+					<div
+						class="
+							absolute
+							inset-x-0
+							bottom-0
+							h-1/2
+							z-10
+							opacity-80
+							bg-gradient-to-r
+							from-gray-900
+							via-gray-900
+							to-orange-700
 						"
 					></div>
 					<div
 						class="
 							flex
+							z-30
 							justify-center
 							items-center
 							h-36
@@ -98,11 +123,12 @@
 								<img
 									@click="enableVideo"
 									class="
+										relative
 										h-full
 										w-full
 										object-cover
 										rounded-md
-										ç
+										z-20
 									"
 									src="/img/Hero.jpg"
 									alt="People working on laptops"
@@ -125,6 +151,7 @@
 									class="
 										absolute
 										left-10
+										z-30
 										bottom-1/2
 										transform
 										-translate-y-20
@@ -137,7 +164,7 @@
 										focus:outline-none
 										focus:ring-2
 										focus:ring-offset-2
-										focus:ring-indigo-800
+										focus:ring-orange-500
 									"
 								>
 									<span class="sr-only"
@@ -146,6 +173,7 @@
 									<div
 										class="
 											absolute
+											z-30
 											inset-0
 											w-full
 											h-full
@@ -187,6 +215,7 @@
 					</video> -->
 					<div
 						class="
+							z-40
 							relative
 							w-screen
 							h-screen

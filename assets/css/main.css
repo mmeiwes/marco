@@ -7,3 +7,9 @@ html {
 	background-size: cover;
 	background-position: center center;
 }
+
+.bg-hero {
+	background-image: url('/img/hero.jpg');
+	background-size: cover;
+	background-position: center center;
+}

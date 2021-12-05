@@ -1,7 +1,16 @@
 <template>
 	<div
 		v-if="showModal"
-		class="fixed inset-0 flex items-center justify-center p-4 lg:p-16 z-50"
+		class="
+			fixed
+			inset-0
+			flex
+			items-center
+			justify-center
+			p-4
+			lg:p-16
+			z-50
+		"
 	>
 		<button
 			tabindex="0"
@@ -51,7 +60,13 @@
 		>
 			<div v-if="showBackdrop">
 				<div
-					class="absolute inset-0 bg-gray-900 opacity-90 z-40"
+					class="
+						absolute
+						inset-0
+						bg-gray-900
+						opacity-90
+						z-40
+					"
 					@click="close"
 				></div>
 			</div>
