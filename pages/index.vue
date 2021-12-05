@@ -72,7 +72,7 @@
 										rounded-md
 										ç
 									"
-									src="/img/Hero.png"
+									src="/img/Hero.jpg"
 									alt="People working on laptops"
 								/>
 							</div>
