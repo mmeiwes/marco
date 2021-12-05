@@ -4,7 +4,15 @@
 			<div>
 				<!-- Hero card -->
 				<div class="relative">
-					<div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-900"></div>
+					<div
+						class="
+							absolute
+							inset-x-0
+							bottom-0
+							h-1/2
+							bg-gray-900
+						"
+					></div>
 					<div
 						class="
 							lg:pb-16
@@ -35,7 +43,14 @@
 						>
 							Ein neues Lebensgefühl durch Bewegung.
 						</h2>
-						<div class="relative lg:rounded-md overflow-hidden w-full">
+						<div
+							class="
+								relative
+								lg:rounded-md
+								overflow-hidden
+								w-full
+							"
+						>
 							<div
 								class="
 									absolute
@@ -50,13 +65,27 @@
 							>
 								<img
 									@click="enableVideo"
-									class="h-full w-full object-cover rounded-md ç"
+									class="
+										h-full
+										w-full
+										object-cover
+										rounded-md
+										ç
+									"
 									src="/img/Hero.png"
 									alt="People working on laptops"
 								/>
 							</div>
 							<div
-								class="relative px-4 py-40 lg:px-8 mt-60 flex justify-center"
+								class="
+									relative
+									px-4
+									py-40
+									lg:px-8
+									mt-60
+									flex
+									justify-center
+								"
 							>
 								<button
 									@click="enableVideo"
@@ -79,7 +108,9 @@
 										focus:ring-indigo-800
 									"
 								>
-									<span class="sr-only">Video anschauen und mehr erfahren</span>
+									<span class="sr-only"
+										>Video anschauen und mehr erfahren</span
+									>
 									<div
 										class="
 											absolute
@@ -97,7 +128,12 @@
 											fill="currentColor"
 											viewBox="0 0 84 84"
 										>
-											<circle opacity="0.9" cx="42" cy="42" r="0" />
+											<circle
+												opacity="0.9"
+												cx="42"
+												cy="42"
+												r="0"
+											/>
 											<path
 												d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z"
 											/>
@@ -109,7 +145,10 @@
 					</div>
 				</div>
 
-				<VideoModal @close="videoIsEnabled = false" :open="videoIsEnabled">
+				<VideoModal
+					@close="videoIsEnabled = false"
+					:open="videoIsEnabled"
+				>
 					<!-- 	<video v-if="videoIsEnabled" class="relative z-50" id="vid" ref="vid">
 						<source src="/video/featured.mp4" type="video/mp4" />
 						Your browser does not support HTML video.
@@ -127,7 +166,12 @@
 					>
 						<iframe
 							src="https://player.vimeo.com/video/643632059?h=87e3a81d89&autoplay=1&portrait=0"
-							style="top: 0; width: 90%; height: 90%; z-index: 40"
+							style="
+								top: 0;
+								width: 90%;
+								height: 90%;
+								z-index: 40;
+							"
 							frameborder="0"
 							allow="autoplay; fullscreen; picture-in-picture"
 							allowfullscreen
@@ -136,7 +180,18 @@
 				</VideoModal>
 			</div>
 
-			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 my-16">
+			<div
+				class="
+					max-w-7xl
+					mx-auto
+					px-4
+					sm:px-6
+					lg:px-8
+					relative
+					z-10
+					my-16
+				"
+			>
 				<h1
 					class="
 						text-center
@@ -148,7 +203,9 @@
 						mt-4
 					"
 				>
-					<span class="text-orange-500">Personal Training</span>
+					<span class="text-orange-500"
+						>Personal Training</span
+					>
 					in Hövelhöf und Kreis Paderborn
 				</h1>
 
@@ -198,375 +255,449 @@
                 </div> -->
 			</div>
 
-			<section id="about">
-				<div class="relative overflow-hidden">
-					<div aria-hidden="true" class="absolute inset-x-0 top-0 h-48"></div>
-					<div class="relative">
+			<section class="space-y-8 my-32" id="about">
+				<div class="relative">
+					<div
+						class="
+							md:mx-auto md:max-w-5xl md:px-8
+							grid
+							md:grid-cols-2 md:grid-flow-col-dense
+						"
+					>
 						<div
 							class="
-								lg:mx-auto
-								lg:max-w-7xl
-								lg:px-8
-								lg:grid
-								lg:grid-cols-2
-								lg:grid-flow-col-dense
+								px-4
+								lg:max-w-md
+								mx-auto
+								lg:py-16 lg:mx-0 lg:px-0
+								order-last
+								md:order-first
 							"
 						>
-							<div class="px-4 lg:max-w-xl mx-auto lg:py-16 lg:mx-0 lg:px-0">
-								<div>
-									<div class="mt-6">
-										<h2
-											class="
-												text-3xl
-												font-display font-extrabold
-												text-gray-900
-												uppercase
-											"
-										>
-											Marco Meiwes
-											<span class="text-orange-500">Personal Trainer</span>
-										</h2>
-										<p class="mt-4 text-lg text-gray-500">
-											Hey, ich bin Marco und ich bin Personal Trainer aus
-											Hovelhöf im Kreis Paderborn. Ich helfe Menschen sich in
-											ihrem Körper wohlzufühlen. Mir geht es nicht um Fitness,
-											sondern darum: Was kann der Körper und was kann er nicht?
-											Wie frei kannst du dich in deinem Körper bewegen? Hier
-											setzt mein Training an. Wer einen funktionalen,
-											beweglichen und verletzungsfreien Körper haben möchte ist
-											bei mir an der richtigen Adresse.
-										</p>
-										<h2
-											class="
-												py-4
-												text-3xl
-												font-display font-extrabold
-												text-gray-900
-											"
-										>
-											Über mich
-										</h2>
-										<p class="text-lg text-gray-500">
-											Bewegung ist mein Leben. Seit 20 Jahren spiele ich
-											Badminton im Verein und bin mittlerweile seit 10 Jahren
-											als Badmintontrainer aktiv. Nebenbei habe ich auf meine
-											körperliche Fitness immer großen Wert gelegt. Der Sport
-											hat mir das nötige Vertrauen in mich selbst gegeben und
-											mir gezeigt, wozu mein Körper fähig ist. Während meines
-											Sportstudiums veränderte sich mein Training von einem
-											fitnessorientierten zu einem vielseitigen und
-											bewegungsorientierten Training.
-										</p>
-										<p class="mt-4 text-lg text-gray-500">
-											Meine Leidenschaft ist die Optimierung des menschlichen
-											Körpers – Menschen zu unterstützen, die bereit sind ihr
-											volles Potenzial auszuschöpfen und ihren Körper auf das
-											nächste Level zu bringen.
-										</p>
-										<div class="mt-6">
-											<a
-												href="mailto:marco-meiwes@web.de"
-												class="
-													inline-flex
-													bg-orange-500 bg-origin-border
-													px-4
-													py-2
-													border border-transparent
-													text-base
-													font-medium
-													shadow-sm
-													rounded-full
-													text-white
-												"
-											>
-												Jetzt kontaktieren
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="mt-12 sm:mt-16 lg:mt-0 px-4">
-								<div
+							<div class="max-w-md">
+								<h2
 									class="
-										-mr-48
-										lg:pl-6
-										md:-mr-16
-										rounded-lg
-										overflow-hidden
-										lg:px-0 lg:m-0 lg:relative lg:h-full
+										text-3xl
+										mt-8
+										font-display font-extrabold
+										text-gray-900
+										uppercase
 									"
 								>
-									<img
-										class="
-											w-full
-											lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none
-										"
-										src="/img/FeaturedRight.jpg"
-										alt="Inbox user interface"
-									/>
-								</div>
+									Marco Meiwes
+									<span class="text-orange-500 block"
+										>Personal Trainer</span
+									>
+								</h2>
+								<p class="mt-4 text-lg text-gray-500">
+									Hey, ich bin Marco und ich bin Personal
+									Trainer aus Hovelhöf im Kreis Paderborn.
+									Ich helfe Menschen sich in ihrem Körper
+									wohlzufühlen.
+								</p>
 							</div>
 						</div>
-					</div>
-					<div class="mt-24">
 						<div
 							class="
-								lg:mx-auto
-								lg:max-w-7xl
-								lg:px-8
-								lg:grid
-								lg:grid-cols-2
-								lg:grid-flow-col-dense
-								lg:gap-24
+								lg:mt-0
+								px-4
+								lg:pr-36
+								flex
+								justify-center
+								order-first
 							"
 						>
 							<div
 								class="
-									px-4
-									lg:max-w-xl
-									mx-auto
-									sm:px-6
-									lg:py-32 lg:mx-0 lg:px-0 lg:col-start-2
+									rounded-lg
+									lg:px-0 lg:m-0 lg:relative lg:h-full
+									bg-red-400
 								"
 							>
-								<div>
-									<div class="mt-6">
-										<h2
-											class="
-												text-3xl
-												font-extrabold
-												text-gray-900
-												font-display
-												uppercase
-											"
-										>
-											Was möchtest du wirklich?
-										</h2>
-										<p class="mt-4 text-lg text-gray-500">
-											Jetzt mal Hand aufs Herz. Dir geht es nicht um ein
-											Six-Pack, einen flachen Bauch oder einen knackigen
-											Hintern. Dir ist es viel wichtiger dich in deinem Körper
-											wohlzufühlen und all die schönen Dinge des Lebens ausüben
-											zu können, ohne ständig an den eigenen Körper denken zu
-											müssen. Du möchtest viel Energie haben, leistungsfähig,
-											mental ausgeglichen und belastbar sein.
-										</p>
-										<p class="mt-4 text-lg text-gray-500">
-											Du möchtest einen Körper, der dich mit Leichtigkeit durchs
-											Leben bringt. Fahrradtouren mit der Familie, Bergsteigen
-											mit Freunden, das Schwimmen im nächsten See oder das
-											Tanzen mit dem Partner – all das sind Aktivitäten, die du
-											gerne machst und genießen möchtest, ohne dass dir dein
-											Körper einen Strich durch die Rechnung macht.
-										</p>
-										<p class="mt-4 text-lg text-gray-500">
-											Doch wie gelangst du zu diesem Körper? Hier komme ich ins
-											Spiel. Ich zeige dir, wie wir am effektivsten da
-											hinkommen, wo du hinmöchtest. Ich helfe dir, dir weniger
-											Gedanken, um deinen Körper zu machen, damit du Zeit hast,
-											dich auf die wirklich wichtigen Dinge im Leben zu
-											konzentrieren – vorausgesetzt, du bist bereit die nötige
-											Arbeit zu investieren.
-										</p>
-										<div class="mt-6">
-											<a
-												href="mailto:marco-meiwes@web.de"
-												class="
-													inline-flex
-													bg-orange-500 bg-origin-border
-													px-4
-													py-2
-													border border-transparent
-													text-base
-													font-medium
-													shadow-sm
-													text-white
-													rounded-full
-												"
-											>
-												Jetzt kontaktieren
-											</a>
-										</div>
-									</div>
-								</div>
+								<img
+									class="
+										w-full
+										lg:absolute
+										rounded-md
+										h-full
+										lg:left-0
+										lg:h-96
+										lg:w-auto
+										lg:max-w-none
+									"
+									src="/img/headshot.jpg"
+									alt="Handstand"
+								/>
 							</div>
-							<div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1 max-w-lg">
-								<div class="lg:-ml-24 lg:px-0 lg:m-0 lg:relative lg:h-full">
-									<div class="px-4">
-										<div
-											class="
-												aspect-w-1 aspect-h-1
-												rounded-lg
-												lg:bg-gray-100
-												overflow-hidden
-											"
-										>
-											<img
-												src="/img/gallery2.jpg"
-												alt="Black kettle with long pour spot and angled body on marble counter next to coffee mug and pour-over system."
-												class="w-full h-full object-center object-cover"
-											/>
-										</div>
-										<div
-											class="
-												grid grid-cols-2
-												gap-4
-												mt-4
-												sm:gap-6 sm:mt-6
-												lg:gap-8 lg:mt-8
-											"
-										>
-											<div
-												class="
-													aspect-w-1 aspect-h-1
-													rounded-lg
-													bg-gray-100
-													overflow-hidden
-												"
-											>
-												<img
-													src="/img/gallery.jpg"
-													alt="Detail of temperature setting button on kettle bass with digital degree readout."
-													class="w-full h-full object-center object-cover"
-												/>
-											</div>
-											<div
-												class="
-													aspect-w-1 aspect-h-1
-													rounded-lg
-													bg-gray-100
-													overflow-hidden
-												"
-											>
-												<img
-													src="/img/gallery3.jpg"
-													alt="Kettle spout pouring boiling water into coffee grounds in pour-over mug."
-													class="w-full h-full object-center object-cover"
-												/>
-											</div>
-										</div>
-									</div>
-								</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative">
+					<div
+						class="
+							md:mx-auto
+							md:max-w-5xl
+							md:px-8
+							md:grid
+							md:grid-cols-2
+							md:grid-flow-col-dense
+						"
+					>
+						<div
+							class="
+								lg:mt-0
+								px-4
+								flex
+								justify-center
+								md:justify-start
+								items-center
+							"
+						>
+							<div
+								class="
+									lg:pl-6
+									rounded-lg
+									lg:px-0 lg:m-0 lg:relative
+								"
+							>
+								<img
+									class="
+										w-full
+										lg:absolute
+										lg:transform
+										lg:-translate-y-1/2
+										rounded-md
+										lg:h-96 lg:w-auto lg:max-w-none
+									"
+									src="/img/movement.jpg"
+									alt="Inbox user interface"
+								/>
 							</div>
+						</div>
+						<div
+							class="
+								max-w-md
+								mx-auto
+								lg:py-16 lg:mx-0 lg:px-0
+							"
+						>
+							<p class="mt-4 text-lg text-gray-500">
+								Was kann der Körper und was kann er nicht?
+								Wie frei kannst du dich in deinem Körper
+								bewegen?
+							</p>
+							<p class="font-bold my-8 text-lg"
+								>Hier setzt mein Training an.</p
+							>
+							<p class="mt-2 text-lg text-gray-500">
+								Wer einen funktionalen, beweglichen und
+								verletzungsfreien Körper haben möchte ist
+								bei mir an der richtigen Adresse.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="relative">
+					<div
+						class="
+							md:mx-auto md:max-w-5xl md:px-8
+							grid
+							md:grid-cols-2 md:grid-flow-col-dense
+						"
+					>
+						<div
+							class="
+								px-4
+								lg:max-w-md
+								mx-auto
+								lg:py-16 lg:mx-0 lg:px-0
+								order-last
+								md:order-first
+							"
+						>
+							<div class="max-w-md">
+								<h2
+									class="
+										text-3xl
+										mt-8
+										font-display font-extrabold
+										text-gray-900
+										uppercase
+									"
+								>
+									Über mich
+								</h2>
+								<p class="mt-4 text-lg text-gray-500">
+									Bewegung ist mein Leben. Seit 20 Jahren
+									spiele ich Badminton im Verein und bin
+									mittlerweile seit 10 Jahren als
+									Badmintontrainer aktiv. Nebenbei habe ich
+									auf meine körperliche Fitness immer großen
+									Wert gelegt.
+								</p>
+							</div>
+						</div>
+						<div
+							class="
+								lg:mt-0
+								px-4
+								lg:pr-36
+								flex
+								justify-center
+								order-first
+							"
+						>
+							<div
+								class="
+									rounded-lg
+									lg:px-0 lg:m-0 lg:relative lg:h-full
+									bg-red-400
+								"
+							>
+								<img
+									class="
+										w-full
+										lg:absolute
+										rounded-md
+										h-full
+										lg:left-0
+										lg:h-96
+										lg:w-auto
+										lg:max-w-none
+									"
+									src="/img/dance.jpg"
+									alt="Training"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative">
+					<div
+						class="
+							md:mx-auto
+							md:max-w-5xl
+							md:px-8
+							md:grid
+							md:grid-cols-2
+							md:grid-flow-col-dense
+						"
+					>
+						<div
+							class="
+								lg:mt-0
+								px-4
+								flex
+								justify-center
+								md:justify-start
+								items-center
+							"
+						>
+							<div
+								class="
+									lg:pl-6
+									rounded-lg
+									lg:px-0 lg:m-0 lg:relative
+								"
+							>
+								<img
+									class="
+										w-full
+										lg:absolute
+										lg:transform
+										lg:-translate-y-1/2
+										rounded-md
+										lg:h-96 lg:w-auto lg:max-w-none
+									"
+									src="/img/training.jpg"
+									alt="Inbox user interface"
+								/>
+							</div>
+						</div>
+						<div
+							class="
+								max-w-md
+								mx-auto
+								lg:py-16 lg:mx-0 lg:px-0
+							"
+						>
+							<p class="mt-4 text-lg text-gray-500">
+								Der Sport hat mir das nötige Vertrauen in
+								mich selbst gegeben und mir gezeigt, wozu
+								mein Körper fähig ist.
+							</p>
+							<p class="mt-4 text-lg text-gray-500">
+								Während meines Sportstudiums veränderte sich
+								mein Training von einem fitnessorientierten
+								zu einem vielseitigen und
+								bewegungsorientierten Training.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="relative">
+					<div
+						class="
+							md:mx-auto md:max-w-5xl md:px-8
+							grid
+							md:grid-cols-2 md:grid-flow-col-dense
+						"
+					>
+						<div
+							class="
+								px-4
+								lg:max-w-md
+								mx-auto
+								lg:py-16 lg:mx-0 lg:px-0
+								order-last
+								md:order-first
+							"
+						>
+							<div class="max-w-md">
+								<h2
+									class="
+										text-3xl
+										mt-8
+										font-display font-extrabold
+										text-gray-900
+										uppercase
+									"
+								>
+									Was willst du
+									<span class="text-orange-500"
+										>wirklich?</span
+									>
+								</h2>
+								<p class="mt-2 text-lg text-gray-500">
+									Du möchtest einen Körper, der dich mit
+									Leichtigkeit durchs Leben bringt.
+									Fahrradtouren mit der Familie, Bergsteigen
+									mit Freunden, das Schwimmen im nächsten
+									See oder das Tanzen mit dem Partner – all
+									das sind Aktivitäten, die du gerne machst
+									und genießen möchtest, ohne dass dir dein
+									Körper einen Strich durch die Rechnung
+									macht.
+								</p>
+							</div>
+						</div>
+						<div
+							class="
+								lg:mt-0
+								px-4
+								lg:pr-36
+								flex
+								justify-center
+								order-first
+							"
+						>
+							<div
+								class="
+									rounded-lg
+									lg:px-0 lg:m-0 lg:relative lg:h-full
+									bg-red-400
+								"
+							>
+								<img
+									class="
+										w-full
+										lg:absolute
+										rounded-md
+										h-full
+										lg:left-0
+										lg:h-96
+										lg:w-auto
+										lg:max-w-none
+									"
+									src="/img/run.jpg"
+									alt="Inbox user interface"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="relative">
+					<div
+						class="
+							md:mx-auto
+							md:max-w-5xl
+							md:px-8
+							md:grid
+							md:grid-cols-2
+							md:grid-flow-col-dense
+						"
+					>
+						<div
+							class="
+								lg:mt-0
+								px-4
+								flex
+								justify-center
+								md:justify-start
+								items-center
+							"
+						>
+							<div
+								class="
+									lg:pl-6
+									rounded-lg
+									lg:px-0 lg:m-0 lg:relative
+								"
+							>
+								<img
+									class="
+										w-full
+										lg:absolute
+										lg:transform
+										lg:-translate-y-1/2
+										rounded-md
+										lg:h-96 lg:w-auto lg:max-w-none
+									"
+									src="/img/hardwork.jpg"
+									alt="Inbox user interface"
+								/>
+							</div>
+						</div>
+						<div
+							class="
+								max-w-md
+								mx-auto
+								lg:py-16 lg:mx-0 lg:px-0
+							"
+						>
+							<p class="mt-2 text-lg text-gray-500">
+								Doch wie gelangst du zu diesem Körper? Hier
+								komme ich ins Spiel. Ich zeige dir, wie wir
+								am effektivsten da hinkommen, wo du
+								hinmöchtest. Ich helfe dir, dir weniger
+								Gedanken, um deinen Körper zu machen, damit
+								du Zeit hast, dich auf die wirklich
+								wichtigen Dinge im Leben zu konzentrieren –
+								vorausgesetzt, du bist bereit die nötige
+								Arbeit zu investieren.
+							</p>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section
-				id="testimonials"
-				aria-labelledby="testimonial-heading"
-				class="relative mt-12 pb-24 max-w-7xl mx-auto px-4 lg:py-32"
-			>
-				<div class="max-w-2xl mx-auto lg:max-w-none">
-					<h2
+			<section class="py-64 bg-qa">
+				<div class="max-w-4xl mx-auto text-center">
+					<p
 						class="
-							text-3xl
-							lg:text-5xl
-							font-display font-extrabold
-							text-orange-500
-							uppercase
+							mt-2
+							px-8
+							text-xl
+							font-display
+							text-white
 						"
 					>
-						Kundenmeinungen
-					</h2>
-
-					<div
-						class="
-							mt-16
-							space-y-16
-							lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8
-						"
-					>
-						<blockquote class="sm:flex lg:flex-col self-stretch">
-							<svg
-								width="24"
-								height="18"
-								viewBox="0 0 24 18"
-								xmlns="http://www.w3.org/2000/svg"
-								aria-hidden="true"
-								class="flex-shrink-0 text-gray-300"
-							>
-								<path
-									d="M0 18h8.7v-5.555c-.024-3.906 1.113-6.841 2.892-9.68L6.452 0C3.188 2.644-.026 7.86 0 12.469V18zm12.408 0h8.7v-5.555C21.083 8.539 22.22 5.604 24 2.765L18.859 0c-3.263 2.644-6.476 7.86-6.451 12.469V18z"
-									fill="currentColor"
-								/>
-							</svg>
-							<div
-								class="
-									mt-8
-									sm:mt-0 sm:ml-6
-									lg:mt-10 lg:ml-0
-									h-full
-									flex flex-col
-								"
-							>
-								<p class="text-lg text-gray-600">
-									Das individuelle Training mit Marco finde ich klasse. Er passt
-									sich dabei immer mir an, da ich bislang nicht gerade der
-									sportlichste Typ war und eine Arm-OP hinter mir habe.
-								</p>
-								<p class="text-lg text-gray-600 mt-2">
-									Und dass wir meistens draußen trainieren, finde ich super!
-								</p>
-								<cite
-									class="
-										mt-4
-										lg:mt-auto
-										block
-										font-semibold
-										not-italic
-										text-purple-600
-									"
-								>
-									Franky
-								</cite>
-							</div>
-						</blockquote>
-
-						<blockquote class="sm:flex lg:flex-col self-stretch">
-							<svg
-								width="24"
-								height="18"
-								viewBox="0 0 24 18"
-								xmlns="http://www.w3.org/2000/svg"
-								aria-hidden="true"
-								class="flex-shrink-0 text-gray-300"
-							>
-								<path
-									d="M0 18h8.7v-5.555c-.024-3.906 1.113-6.841 2.892-9.68L6.452 0C3.188 2.644-.026 7.86 0 12.469V18zm12.408 0h8.7v-5.555C21.083 8.539 22.22 5.604 24 2.765L18.859 0c-3.263 2.644-6.476 7.86-6.451 12.469V18z"
-									fill="currentColor"
-								/>
-							</svg>
-							<div
-								class="
-									mt-8
-									sm:mt-0 sm:ml-6
-									lg:mt-10 lg:ml-0
-									h-full
-									flex flex-col
-								"
-							>
-								<p class="text-lg text-gray-600">
-									Das besondere an Marcos Training ist, dass wir nur den eigenen
-									Körper verwenden und das komplett ausreicht. Mit seinem
-									Feedback und dem Glauben an mich klappen auch schwierige
-									Sachen.
-								</p>
-								<cite
-									class="
-										block
-										font-semibold
-										not-italic
-										text-purple-600
-										lg:mt-auto
-									"
-								>
-									Finn
-								</cite>
-							</div>
-						</blockquote>
-					</div>
+						Meine Leidenschaft ist die Optimierung des
+						menschlichen Körpers – Menschen zu unterstützen,
+						die bereit sind ihr volles Potenzial
+						auszuschöpfen und ihren Körper auf das nächste
+						Level zu bringen.
+					</p>
 				</div>
 			</section>
 

@@ -8,6 +8,7 @@ You can directly use them in pages and other components without the need to impo
 
 - `<FAQ>` | `<f-a-q>` (components/FAQ.vue)
 - `<QA>` | `<q-a>` (components/QA.vue)
+- `<Testimonial>` | `<testimonial>` (components/Testimonial.vue)
 - `<TheFooter>` | `<the-footer>` (components/TheFooter.vue)
 - `<TheHeader>` | `<the-header>` (components/TheHeader.vue)
 - `<VideoModal>` | `<video-modal>` (components/VideoModal.vue)

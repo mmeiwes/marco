@@ -1,16 +1,29 @@
 <template>
-	<section id="faq">
-		<div class="bg-gray-900 px-1">
-			<div class="max-w-7xl mx-auto py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
+	<section class="relative" id="faq">
+		<div class="px-4">
+			<div class="absolute top-0 left-0 h-full w-full bg-gray-900 z-20"></div>
+			<div
+				class="
+					max-w-7xl
+					mx-auto
+					py-12
+					px-4
+					sm:py-16 sm:px-6
+					lg:px-8
+					relative
+					z-20
+				"
+			>
 				<div class="max-w-3xl mx-auto divide-y divide-gray-700">
 					<h2
 						class="
 							text-center text-3xl
 							font-extrabold
-							text-orange-500
+							text-orange-200
 							sm:text-4xl
 							text-uppercase
 							font-display
+							uppercase
 						"
 					>
 						Häufig gestellte Fragen

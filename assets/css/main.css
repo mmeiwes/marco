@@ -1,3 +1,9 @@
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
+}
+
+.bg-qa {
+	background-image: url('/img/salamander.jpg');
+	background-size: cover;
+	background-position: center center;
 }

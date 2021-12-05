@@ -5,6 +5,9 @@
   "QA": {
     "description": "Auto imported from components/QA.vue"
   },
+  "Testimonial": {
+    "description": "Auto imported from components/Testimonial.vue"
+  },
   "TheFooter": {
     "description": "Auto imported from components/TheFooter.vue"
   },
