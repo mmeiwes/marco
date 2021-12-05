@@ -735,6 +735,8 @@
 				</div>
 			</section>
 
+			<Testimonial />
+
 			<FAQ />
 		</main>
 	</div>
