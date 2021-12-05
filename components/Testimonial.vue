@@ -2,7 +2,15 @@
 	<section
 		id="testimonials"
 		aria-labelledby="testimonial-heading"
-		class="relative pb-24 max-w-7xl mx-auto px-4 lg:py-32"
+		class="
+			relative
+			pb-24
+			max-w-7xl
+			mx-auto
+			px-4
+			mt-16
+			lg:mt-0 lg:py-32
+		"
 	>
 		<div class="max-w-2xl mx-auto lg:max-w-none">
 			<h2

@@ -241,20 +241,6 @@
 				</VideoModal>
 			</div>
 
-			<div
-				class="
-					max-w-7xl
-					mx-auto
-					px-4
-					sm:px-6
-					lg:px-8
-					relative
-					z-10
-					my-16
-				"
-			>
-			</div>
-
 			<section class="space-y-8 my-32" id="about">
 				<div class="relative">
 					<div
@@ -384,6 +370,7 @@
 						</div>
 						<div
 							class="
+								px-4
 								max-w-md
 								mx-auto
 								lg:py-16 lg:mx-0 lg:px-0
@@ -483,6 +470,7 @@
 				<div class="relative">
 					<div
 						class="
+							px-4
 							md:mx-auto
 							md:max-w-5xl
 							md:px-8
@@ -546,6 +534,7 @@
 				<div class="relative">
 					<div
 						class="
+							px-4
 							md:mx-auto md:max-w-5xl md:px-8
 							grid
 							md:grid-cols-2 md:grid-flow-col-dense
@@ -553,7 +542,6 @@
 					>
 						<div
 							class="
-								px-4
 								lg:max-w-md
 								mx-auto
 								lg:py-16 lg:mx-0 lg:px-0
@@ -634,6 +622,7 @@
 				<div class="relative">
 					<div
 						class="
+							px-4
 							md:mx-auto
 							md:max-w-5xl
 							md:px-8
