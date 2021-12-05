@@ -15,6 +15,34 @@
 					></div>
 					<div
 						class="
+							flex
+							justify-center
+							items-center
+							h-36
+							w-full
+							absolute
+							bottom-0
+						"
+					>
+						<h1
+							class="
+								text-center
+								block
+								font-bold
+								uppercase
+								font-display
+								text-2xl text-white
+								mb-2
+							"
+						>
+							<span class="text-orange-300"
+								>Personal Training</span
+							>
+							in Hövelhöf und Kreis Paderborn
+						</h1>
+					</div>
+					<div
+						class="
 							lg:pb-16
 							h-hero
 							max-w-7xl
@@ -38,7 +66,11 @@
 								tracking-tighter
 								uppercase
 								mb-2
-								text-orange-500
+								bg-clip-text
+								text-transparent
+								bg-gradient-to-r
+								from-orange-300
+								to-orange-500
 							"
 						>
 							Ein neues Lebensgefühl durch Bewegung.
@@ -192,67 +224,6 @@
 					my-16
 				"
 			>
-				<h1
-					class="
-						text-center
-						block
-						font-bold
-						uppercase
-						font-display
-						text-2xl
-						mt-4
-					"
-				>
-					<span class="text-orange-500"
-						>Personal Training</span
-					>
-					in Hövelhöf und Kreis Paderborn
-				</h1>
-
-				<!--    <div
-                  class="
-                    mt-6
-                    grid grid-cols-2
-                    gap-8
-                    md:grid-cols-3
-                    lg:grid-cols-3
-                    text-gray-500
-                  "
-                >
-                  <div
-                    class="
-                      col-span-1
-                      flex
-                      justify-center
-                      md:col-span-2
-                      lg:col-span-1
-                    "
-                  >
-                    Bewegung
-                  </div>
-                  <div
-                    class="
-                      col-span-1
-                      flex
-                      justify-center
-                      md:col-span-2
-                      lg:col-span-1
-                    "
-                  >
-                    Fitness
-                  </div>
-                  <div
-                    class="
-                      col-span-1
-                      flex
-                      justify-center
-                      md:col-span-2 md:col-start-2
-                      lg:col-span-1
-                    "
-                  >
-                    Kraft
-                  </div>
-                </div> -->
 			</div>
 
 			<section class="space-y-8 my-32" id="about">
@@ -285,7 +256,15 @@
 									"
 								>
 									Marco Meiwes
-									<span class="text-orange-500 block"
+									<span
+										class="
+											bg-clip-text
+											text-transparent
+											bg-gradient-to-r
+											from-orange-300
+											to-orange-500
+											block
+										"
 										>Personal Trainer</span
 									>
 								</h2>
@@ -564,7 +543,14 @@
 									"
 								>
 									Was willst du
-									<span class="text-orange-500"
+									<span
+										class="
+											bg-clip-text
+											text-transparent
+											bg-gradient-to-r
+											from-orange-300
+											to-orange-500
+										"
 										>wirklich?</span
 									>
 								</h2>
@@ -698,6 +684,54 @@
 						auszuschöpfen und ihren Körper auf das nächste
 						Level zu bringen.
 					</p>
+					<div
+						class="
+							text-orange-200 text-lg
+							mt-4
+							flex
+							justify-center
+							space-x-2
+						"
+					>
+						<a
+							href="tel:+4915126620116"
+							class="
+								inline-flex
+								font-display
+								text-2xl
+								uppercase
+								bg-origin-border
+								border border-transparent
+								font-medium
+								shadow-sm
+								text-orange-200
+								rounded-full
+								justify-center
+								items-center
+							"
+						>
+							Jetzt anrufen
+						</a>
+						<a
+							href="mailto:marco-meiwes@web.de"
+							class="
+								inline-flex
+								font-display
+								text-2xl
+								uppercase
+								bg-origin-border
+								border border-transparent
+								font-medium
+								shadow-sm
+								text-white
+								rounded-full
+								justify-center
+								items-center
+							"
+						>
+							Per Email kontaktieren
+						</a>
+					</div>
 				</div>
 			</section>
 
