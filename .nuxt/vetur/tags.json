@@ -1,9 +1,18 @@
 {
+  "CTA": {
+    "description": "Auto imported from components/CTA.vue"
+  },
   "FAQ": {
     "description": "Auto imported from components/FAQ.vue"
   },
+  "Hero": {
+    "description": "Auto imported from components/Hero.vue"
+  },
   "QA": {
     "description": "Auto imported from components/QA.vue"
+  },
+  "SectionStory": {
+    "description": "Auto imported from components/SectionStory.vue"
   },
   "Testimonial": {
     "description": "Auto imported from components/Testimonial.vue"

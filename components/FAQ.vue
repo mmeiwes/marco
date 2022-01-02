@@ -1,7 +1,17 @@
 <template>
 	<section class="relative" id="faq">
 		<div class="px-4">
-			<div class="absolute top-0 left-0 h-full w-full bg-gray-900 z-20"></div>
+			<div
+				class="
+					absolute
+					top-0
+					left-0
+					h-full
+					w-full
+					bg-gray-900
+					z-20
+				"
+			></div>
 			<div
 				class="
 					max-w-7xl
@@ -14,7 +24,9 @@
 					z-20
 				"
 			>
-				<div class="max-w-3xl mx-auto divide-y divide-gray-700">
+				<div
+					class="max-w-3xl mx-auto divide-y divide-gray-700"
+				>
 					<h2
 						class="
 							text-center text-3xl
@@ -28,7 +40,9 @@
 					>
 						Häufig gestellte Fragen
 					</h2>
-					<dl class="mt-6 space-y-6 divide-y divide-gray-700">
+					<dl
+						class="mt-6 space-y-6 divide-y divide-gray-700"
+					>
 						<QA
 							v-for="(question, i) in questions"
 							:key="i"
@@ -70,9 +84,9 @@ export default {
 						'Die Ergebnisse, die wir zusammen erreichen hängen davon ab, wieviel Zeit du investierst und wie qualitativ hochwertig du die einzelnen Trainingseinheiten durchführst. Sprich – es hängt vor allem von dir ab. Ich kann dir den optimalen Weg ebnen, doch betreten musst du ihn selbst.',
 				},
 				{
-					question: 'Was solltest du mitbringen?',
+					question: 'Was kostet das?',
 					answer:
-						'Für das Training solltest du die Bereitschaft, die nötige Arbeit zu investieren, Geduld und auch bei Regen, Schnee und Hitze zu trainieren.',
+						'<h2 class="mb-2">Meine Stundensätze setzen sich folgendermaße zusammen</h2><ul class="space-y-1 mb-2"><li>1 Personal Trainer Stunde/Woche - 80€ die Stunde</li><li>2 Personal Trainer Stunde/Woche - 70€ die Stunde</li><li>3 Personal Trainer Stunde/Woche - 60€ die Stunde</li><li>4 Personal Trainer Stunde/Woche - 50€ die Stunde</li></ul><p>Das heißt für dich: Je häufiger wir zusammen trainieren, desto günstiger werden die einzelnen Stunden. Die endgültigen Preise setzen wir nach Absprache fest.</p>',
 				},
 			],
 		};

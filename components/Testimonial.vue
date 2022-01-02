@@ -119,7 +119,7 @@
 						"
 					>
 						<p class="text-lg text-gray-600 mb-4">
-							Das besondere an Marcos Training ist, dass wir
+							Das Besondere an Marcos Training ist, dass wir
 							nur den eigenen Körper verwenden und das
 							komplett ausreicht. Mit seinem Feedback und
 							dem Glauben an mich klappen auch schwierige
@@ -179,7 +179,7 @@
 							Marco einfach nur super empfehlen. Wir sind
 							deutlich fitter, können uns besser bewegen und
 							haben abgenommen. Das Ganze war noch viel
-							besser wie wir es uns erhofft hatten.
+							besser, wie wir es uns erhofft hatten.
 						</p>
 						<div
 							class="flex items-center mt-auto space-x-2"
