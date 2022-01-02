@@ -58,7 +58,7 @@
 						-mt-2
 						px-4
 						pt-1
-						lg:px-0
+						xl:px-0
 						font-display
 						text-5xl
 						lg:text-6xl
@@ -77,6 +77,7 @@
 				<h1
 					class="
 						px-4
+						xl:px-0
 						block
 						font-bold
 						uppercase

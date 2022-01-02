@@ -9,6 +9,7 @@
 					max-w-7xl
 					mx-auto
 					px-4
+					xl:px-0
 					py-6
 					md:justify-start md:space-x-10
 				"

@@ -15,23 +15,15 @@
 					lg:py-16 lg:mx-0 lg:px-0
 					order-last
 					md:order-first
+					mr-32
 				"
 			>
 				<slot name="left"></slot>
 			</div>
 
-			<div
-				class="
-					lg:mt-0
-					pl-16
-					flex
-					justify-center
-					order-first
-				"
-			>
+			<div class="lg:mt-0 flex justify-center order-first">
 				<div
 					class="
-						pl-24
 						rounded-lg
 						lg:px-0 lg:m-0 lg:relative lg:h-full
 					"
@@ -39,11 +31,12 @@
 					<img
 						class="
 							w-full
-							lg:left-0
 							h-72
 							lg:h-96
 							sm:w-auto
 							max-w-none
+							lg:-mr-64
+							xl:-mr-16
 						"
 						:src="src"
 						:alt="Handstand"
