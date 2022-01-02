@@ -7,7 +7,10 @@
 				class="space-y-8 py-4 overflow-x-hidden"
 				id="about"
 			>
-				<SectionStory>
+				<SectionStory
+					src="/img/headshot.jpg"
+					alt="Handstand"
+				>
 					<template v-slot:left>
 						<div class="max-w-4xl">
 							<h2
@@ -32,7 +35,7 @@
 									>Personal Trainer</span
 								>
 							</h2>
-							<p class="mt-4 text-lg text-gray-500">
+							<p class="mt-4 lg:text-lg text-gray-500">
 								Hey, ich bin Marco und ich bin Personal
 								Trainer aus Hovelhöf im Kreis Paderborn. Ich
 								helfe Menschen sich in ihrem Körper
@@ -40,26 +43,8 @@
 							</p>
 						</div>
 					</template>
-					<template v-slot:right>
-						<div
-							class="
-								rounded-lg
-								lg:px-0 lg:m-0 lg:relative lg:h-full
-							"
-						>
-							<img
-								class="
-									w-full
-									h-full
-									lg:left-0 lg:h-96 lg:w-auto lg:max-w-none
-								"
-								src="/img/headshot.jpg"
-								alt="Handstand"
-							/>
-						</div>
-					</template>
 				</SectionStory>
-				<SectionStory>
+				<SectionStory src="/img/action.jpg" alt="Handstand">
 					<template v-slot:left>
 						<div class="max-w-4xl">
 							<p class="mt-4 text-lg text-gray-500">
@@ -70,33 +55,18 @@
 							<p class="font-bold my-8 text-lg"
 								>Hier setzt mein Training an.</p
 							>
-							<p class="mt-2 text-lg text-gray-500">
+							<p class="mt-2 lg:text-lg text-gray-500">
 								Wer einen funktionalen, beweglichen und
 								verletzungsfreien Körper haben möchte ist
 								bei mir an der richtigen Adresse.
 							</p>
 						</div>
 					</template>
-					<template v-slot:right>
-						<div
-							class="
-								rounded-lg
-								lg:px-0 lg:m-0 lg:relative lg:h-full
-							"
-						>
-							<img
-								class="
-									w-full
-									h-full
-									lg:left-0 lg:h-96 lg:w-auto lg:max-w-none
-								"
-								src="/img/action.jpg"
-								alt="Handstand"
-							/>
-						</div>
-					</template>
 				</SectionStory>
-				<SectionStory>
+				<SectionStory
+					src="/img/badminton.jpg"
+					alt="Handstand"
+				>
 					<template v-slot:left>
 						<div class="max-w-4xl">
 							<h2
@@ -110,7 +80,7 @@
 							>
 								Über mich
 							</h2>
-							<p class="mt-4 text-lg text-gray-500">
+							<p class="mt-4 lg:text-lg text-gray-500">
 								Bewegung ist mein Leben. Seit 20 Jahren
 								spiele ich Badminton im Verein und bin
 								mittlerweile seit 10 Jahren als
@@ -120,34 +90,16 @@
 							</p>
 						</div>
 					</template>
-					<template v-slot:right>
-						<div
-							class="
-								rounded-lg
-								lg:px-0 lg:m-0 lg:relative lg:h-full
-							"
-						>
-							<img
-								class="
-									w-full
-									h-full
-									lg:left-0 lg:h-96 lg:w-auto lg:max-w-none
-								"
-								src="/img/badminton.jpg"
-								alt="Handstand"
-							/>
-						</div>
-					</template>
 				</SectionStory>
-				<SectionStory>
+				<SectionStory src="/img/plank.jpg" alt="Handstand">
 					<template v-slot:left>
 						<div class="max-w-4xl">
-							<p class="mt-4 text-lg text-gray-500">
+							<p class="mt-4 lg:text-lg text-gray-500">
 								Der Sport hat mir das nötige Vertrauen in
 								mich selbst gegeben und mir gezeigt, wozu
 								mein Körper fähig ist.
 							</p>
-							<p class="mt-4 text-lg text-gray-500">
+							<p class="mt-4 lg:text-lg text-gray-500">
 								Während meines Sportstudiums veränderte sich
 								mein Training von einem fitnessorientierten
 								zu einem vielseitigen und
@@ -155,26 +107,11 @@
 							</p>
 						</div>
 					</template>
-					<template v-slot:right>
-						<div
-							class="
-								rounded-lg
-								lg:px-0 lg:m-0 lg:relative lg:h-full
-							"
-						>
-							<img
-								class="
-									w-full
-									h-full
-									lg:left-0 lg:h-96 lg:w-auto lg:max-w-none
-								"
-								src="/img/plank.jpg"
-								alt="Handstand"
-							/>
-						</div>
-					</template>
 				</SectionStory>
-				<SectionStory>
+				<SectionStory
+					src="/img/running.jpg"
+					alt="Handstand"
+				>
 					<template v-slot:left>
 						<div class="max-w-4xl">
 							<h2
@@ -198,7 +135,7 @@
 									>wirklich?</span
 								>
 							</h2>
-							<p class="mt-2 text-lg text-gray-500">
+							<p class="mt-2 lg:text-lg text-gray-500">
 								Du möchtest einen Körper, der dich mit
 								Leichtigkeit durchs Leben bringt.
 								Fahrradtouren mit der Familie, Bergsteigen
@@ -210,29 +147,11 @@
 							</p>
 						</div>
 					</template>
-					<template v-slot:right>
-						<div
-							class="
-								rounded-lg
-								lg:px-0 lg:m-0 lg:relative lg:h-full
-							"
-						>
-							<img
-								class="
-									w-full
-									h-full
-									lg:left-0 lg:h-96 lg:w-auto lg:max-w-none
-								"
-								src="/img/running.jpg"
-								alt="Handstand"
-							/>
-						</div>
-					</template>
 				</SectionStory>
-				<SectionStory>
+				<SectionStory src="/img/help.jpg" alt="Handstand">
 					<template v-slot:left>
 						<div class="max-w-4xl">
-							<p class="mt-2 text-lg text-gray-500">
+							<p class="mt-2 lg:text-lg text-gray-500">
 								Doch wie gelangst du zu diesem Körper? Hier
 								komme ich ins Spiel. Ich zeige dir, wie wir
 								am effektivsten da hinkommen, wo du
@@ -240,26 +159,8 @@
 								Körper zu machen, damit du Zeit hast, dich
 								auf die wirklich wichtigen Dinge im Leben zu
 								konzentrieren – vorausgesetzt, du bist
-								bereit, die nötige Arbeit zu investiere
+								bereit, die nötige Arbeit zu investieren
 							</p>
-						</div>
-					</template>
-					<template v-slot:right>
-						<div
-							class="
-								rounded-lg
-								lg:px-0 lg:m-0 lg:relative lg:h-full
-							"
-						>
-							<img
-								class="
-									w-full
-									h-full
-									lg:left-0 lg:h-96 lg:w-auto lg:max-w-none
-								"
-								src="/img/help.jpg"
-								alt="Handstand"
-							/>
 						</div>
 					</template>
 				</SectionStory>

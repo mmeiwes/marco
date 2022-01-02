@@ -76,6 +76,7 @@
 				</h2>
 				<h1
 					class="
+						px-4
 						block
 						font-bold
 						uppercase

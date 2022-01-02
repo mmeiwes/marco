@@ -21,10 +21,50 @@
 			</div>
 
 			<div
-				class="lg:mt-0 px-4 flex justify-center order-first"
+				class="
+					lg:mt-0
+					pl-16
+					flex
+					justify-center
+					order-first
+				"
 			>
-				<slot name="right"></slot>
+				<div
+					class="
+						pl-24
+						rounded-lg
+						lg:px-0 lg:m-0 lg:relative lg:h-full
+					"
+				>
+					<img
+						class="
+							w-full
+							lg:left-0
+							h-72
+							lg:h-96
+							sm:w-auto
+							max-w-none
+						"
+						:src="src"
+						:alt="Handstand"
+					/>
+				</div>
 			</div>
 		</div>
 	</div>
 </template>
+
+<script>
+export default {
+	props: {
+		src: {
+			type: String,
+			required: true,
+		},
+		alt: {
+			type: String,
+			required: true,
+		},
+	},
+};</script
+>>
