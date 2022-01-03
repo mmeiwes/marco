@@ -1,6 +1,8 @@
 <template>
-	<section class="py-64 bg-qa">
-		<div class="max-w-4xl mx-auto text-center">
+	<section class="py-64 bg-qa relative">
+		<div
+			class="max-w-4xl mx-auto text-center relative z-20"
+		>
 			<p class="mt-2 px-8 text-xl font-display text-white">
 				Meine Leidenschaft ist die Optimierung des
 				menschlichen Körpers – Menschen zu unterstützen, die
@@ -56,5 +58,15 @@
 				</a>
 			</div>
 		</div>
+		<div
+			class="
+				absolute
+				inset-x-0
+				h-full
+				bottom-0
+				z-10
+				backdrop-filter backdrop-blur-md
+			"
+		></div>
 	</section>
 </template>

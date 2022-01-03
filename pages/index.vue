@@ -176,6 +176,8 @@
 
 			<Testimonial />
 
+			<CTA />
+
 			<FAQ />
 		</main>
 	</div>
