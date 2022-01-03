@@ -4,12 +4,13 @@
 			<Hero />
 
 			<section
-				class="space-y-8 py-4 overflow-x-hidden"
+				class="space-y-8 overflow-x-hidden"
 				id="about"
 			>
 				<SectionStory
 					src="/img/headshot.jpg"
 					alt="Handstand"
+					class="mt-16"
 				>
 					<template v-slot:left>
 						<div class="max-w-4xl">
@@ -47,7 +48,7 @@
 				<SectionStory src="/img/action.jpg" alt="Handstand">
 					<template v-slot:left>
 						<div class="max-w-4xl">
-							<p class="mt-4 text-lg text-gray-500">
+							<p class="mt-8 lg:text-lg text-gray-500">
 								Was kann der Körper und was kann er nicht?
 								Wie frei kannst du dich in deinem Körper
 								bewegen?
@@ -94,7 +95,14 @@
 				<SectionStory src="/img/plank.jpg" alt="Handstand">
 					<template v-slot:left>
 						<div class="max-w-4xl">
-							<p class="mt-4 lg:text-lg text-gray-500">
+							<p
+								class="
+									mt-8
+									sm:mt-0
+									lg:text-lg
+									text-gray-500
+								"
+							>
 								Der Sport hat mir das nötige Vertrauen in
 								mich selbst gegeben und mir gezeigt, wozu
 								mein Körper fähig ist.
@@ -151,7 +159,7 @@
 				<SectionStory src="/img/help.jpg" alt="Handstand">
 					<template v-slot:left>
 						<div class="max-w-4xl">
-							<p class="mt-2 lg:text-lg text-gray-500">
+							<p class="mt-8 lg:text-lg text-gray-500">
 								Doch wie gelangst du zu diesem Körper? Hier
 								komme ich ins Spiel. Ich zeige dir, wie wir
 								am effektivsten da hinkommen, wo du

@@ -1,9 +1,10 @@
 <template>
-	<div class="relative lg:py-32 flex justify-center">
+	<div class="relative flex md:pb-32 justify-center">
 		<div
 			class="
 				md:mx-auto md:max-w-7xl md:px-8
 				grid
+				items-center
 				md:grid-cols-2
 			"
 		>
@@ -14,8 +15,7 @@
 					mx-auto
 					lg:py-16 lg:mx-0 lg:px-0
 					order-last
-					md:order-first
-					mr-32
+					md:order-first md:mr-16
 				"
 			>
 				<slot name="left"></slot>
@@ -30,12 +30,12 @@
 				>
 					<img
 						class="
-							w-full
 							h-72
+							md:h-80
 							lg:h-96
-							sm:w-auto
+							w-auto
 							max-w-none
-							lg:-mr-64
+							md:-mr-48
 							xl:-mr-16
 						"
 						:src="src"

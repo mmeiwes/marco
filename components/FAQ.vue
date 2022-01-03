@@ -76,7 +76,7 @@ export default {
 				{
 					question: 'Was solltest du mitbringen?',
 					answer:
-						'Für das Training solltest du die Bereitschaft, die nötige Arbeit zu investieren, Geduld und auch bei Regen, Schnee und Hitze zu trainieren.',
+						'Für das Training solltest du bereit sein die nötige Arbeit zu investieren.',
 				},
 				{
 					question: 'Welche Ergebnisse kannst du erwarten?',
