@@ -1,6 +1,7 @@
 export { default as CTA } from '../../components/CTA.vue'
 export { default as FAQ } from '../../components/FAQ.vue'
 export { default as Hero } from '../../components/Hero.vue'
+export { default as MobileFixedButton } from '../../components/MobileFixedButton.vue'
 export { default as QA } from '../../components/QA.vue'
 export { default as SectionStory } from '../../components/SectionStory.vue'
 export { default as Testimonial } from '../../components/Testimonial.vue'

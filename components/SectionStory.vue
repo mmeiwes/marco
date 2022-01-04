@@ -47,7 +47,7 @@
 							xl:-mr-16
 						"
 						:src="src"
-						:alt="Handstand"
+						:alt="alt"
 					/>
 				</div>
 			</div>

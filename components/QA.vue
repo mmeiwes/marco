@@ -50,11 +50,11 @@
 			class="mt-2 pr-12"
 			id="faq-0"
 		>
-			<p
+			<div
 				class="text-base text-gray-300"
 				v-html="question.answer"
 			>
-			</p>
+			</div>
 		</dd>
 	</div>
 </template>

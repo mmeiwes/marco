@@ -74,7 +74,7 @@
 							>
 								<div class="md:flex-shrink-0">
 									<img
-										class="mx-auto h-10 w-10 rounded-full"
+										class="mx-auto h-16 w-16 rounded-full"
 										src="/img/franky.jpg"
 										alt=""
 									/>
@@ -130,7 +130,7 @@
 							>
 								<div class="md:flex-shrink-0">
 									<img
-										class="mx-auto h-10 w-10 rounded-full"
+										class="mx-auto h-16 w-16 rounded-full"
 										src="/img/finn.jpg"
 										alt=""
 									/>
@@ -187,7 +187,7 @@
 							>
 								<div class="md:flex-shrink-0">
 									<img
-										class="mx-auto h-10 w-10 rounded-full"
+										class="mx-auto h-16 w-16 rounded-full"
 										src="/img/jana.jpg"
 										alt=""
 									/>

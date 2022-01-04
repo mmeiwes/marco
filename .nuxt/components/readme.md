@@ -9,6 +9,7 @@ You can directly use them in pages and other components without the need to impo
 - `<CTA>` | `<c-t-a>` (components/CTA.vue)
 - `<FAQ>` | `<f-a-q>` (components/FAQ.vue)
 - `<Hero>` | `<hero>` (components/Hero.vue)
+- `<MobileFixedButton>` | `<mobile-fixed-button>` (components/MobileFixedButton.vue)
 - `<QA>` | `<q-a>` (components/QA.vue)
 - `<SectionStory>` | `<section-story>` (components/SectionStory.vue)
 - `<Testimonial>` | `<testimonial>` (components/Testimonial.vue)

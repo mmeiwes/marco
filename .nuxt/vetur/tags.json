@@ -8,6 +8,9 @@
   "Hero": {
     "description": "Auto imported from components/Hero.vue"
   },
+  "MobileFixedButton": {
+    "description": "Auto imported from components/MobileFixedButton.vue"
+  },
   "QA": {
     "description": "Auto imported from components/QA.vue"
   },

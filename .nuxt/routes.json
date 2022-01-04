@@ -3,18 +3,21 @@
     "name": "datenschutz",
     "path": "/datenschutz",
     "component": "/Users/alexanderfalkenberg/Kundenprojekte/marco/pages/datenschutz.vue",
-    "chunkName": "pages/datenschutz"
+    "chunkName": "pages/datenschutz",
+    "_name": "_3dab6372"
   },
   {
     "name": "impressum",
     "path": "/impressum",
     "component": "/Users/alexanderfalkenberg/Kundenprojekte/marco/pages/impressum.vue",
-    "chunkName": "pages/impressum"
+    "chunkName": "pages/impressum",
+    "_name": "_ac0c62ca"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/alexanderfalkenberg/Kundenprojekte/marco/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_c3593114"
   }
 ]

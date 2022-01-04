@@ -9,7 +9,7 @@
 			>
 				<SectionStory
 					src="/img/headshot.jpg"
-					alt="Handstand"
+					alt="Marco Tennisbälle"
 					class="mt-16"
 				>
 					<template v-slot:left>
@@ -179,6 +179,8 @@
 			<CTA />
 
 			<FAQ />
+
+			<MobileFixedButton />
 		</main>
 	</div>
 </template>
