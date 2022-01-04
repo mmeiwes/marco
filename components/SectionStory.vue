@@ -1,5 +1,5 @@
 <template>
-	<div class="relative flex md:pb-32 justify-center">
+	<div class="relative md:pb-32 justify-center">
 		<div
 			class="
 				md:mx-auto md:max-w-7xl md:px-8
@@ -21,7 +21,15 @@
 				<slot name="left"></slot>
 			</div>
 
-			<div class="lg:mt-0 flex justify-center order-first">
+			<div
+				class="
+					lg:mt-0
+					flex
+					justify-center
+					order-first
+					overflow-x-hidden
+				"
+			>
 				<div
 					class="
 						rounded-lg

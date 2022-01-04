@@ -45,7 +45,7 @@
 			<div
 				class="
 					lg:pb-16
-					h-hero
+					md:h-hero
 					max-w-7xl
 					mx-auto
 					py-8
@@ -60,7 +60,8 @@
 						pt-1
 						xl:px-0
 						font-display
-						text-5xl
+						text-3xl
+						md:text-5xl
 						lg:text-6xl
 						tracking-tighter
 						uppercase
@@ -202,7 +203,7 @@
 					z-40
 					relative
 					w-screen
-					h-screen
+					md:h-screen
 					flex
 					items-center
 					justify-center

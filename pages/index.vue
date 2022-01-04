@@ -4,7 +4,7 @@
 			<Hero />
 
 			<section
-				class="space-y-8 overflow-x-hidden"
+				class="space-y-8 sm:overflow-x-hidden"
 				id="about"
 			>
 				<SectionStory
