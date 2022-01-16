@@ -122,14 +122,16 @@
 						href="tel:+4915126620116"
 						class="
 							inline-flex
-							bg-gray-800 bg-origin-border
+							bg-gray-800
+							lg:bg-transparent
+							bg-origin-border
 							h-10
 							w-10
-							border border-transparent
+							lg:h-auto lg:w-auto
 							text-base
 							font-medium
-							shadow-sm
 							text-white
+							lg:text-gray-900
 							rounded-full
 							justify-center
 							items-center
@@ -145,6 +147,9 @@
 								d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
 							/>
 						</svg>
+						<span class="hidden lg:block ml-1"
+							>0151 26620116</span
+						>
 					</a>
 					<a
 						href="mailto:marco-meiwes@web.de"
