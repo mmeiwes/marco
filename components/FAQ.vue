@@ -86,7 +86,7 @@ export default {
 				{
 					question: 'Was kostet das?',
 					answer:
-						'<h2 class="mb-2">Meine Stundensätze setzen sich folgendermaße zusammen</h2><ul class="space-y-1 mb-2"><li>1 Personal Trainer Stunde/Woche - 80€ die Stunde</li><li>2 Personal Trainer Stunde/Woche - 70€ die Stunde</li><li>3 Personal Trainer Stunde/Woche - 60€ die Stunde</li><li>4 Personal Trainer Stunde/Woche - 50€ die Stunde</li></ul>',
+						'<h2 class="mb-2">Meine Stundensätze setzen sich folgendermaßen zusammen</h2><ul class="space-y-1 mb-2"><li>1 Personal Trainer Stunde/Woche - 80€ die Stunde</li><li>2 Personal Trainer Stunde/Woche - 70€ die Stunde</li><li>3 Personal Trainer Stunde/Woche - 60€ die Stunde</li><li>4 Personal Trainer Stunde/Woche - 50€ die Stunde</li></ul>',
 				},
 			],
 		};

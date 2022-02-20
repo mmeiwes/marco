@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<!-- Hero card -->
-		<div class="relative">
+		<div class="relative xl:px-8">
 			<div
 				class="absolute inset-x-0 bottom-0 h-1/2 bg-hero"
 			></div>
@@ -93,7 +93,7 @@
 						to-orange-500
 					"
 				>
-					Personal Training in Hövelhöf und Kreis Paderborn
+					Personal Training in Hövelhof und Kreis Paderborn
 				</h1>
 				<div class="relative w-full">
 					<div
