@@ -9,7 +9,7 @@
 			>
 				<SectionStory
 					src="/img/headshot.jpg"
-					alt="Marco Tennisbälle"
+					alt="Marco Tennisball"
 					class="mt-16"
 				>
 					<template v-slot:left>
