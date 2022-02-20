@@ -1,6 +1,6 @@
 <template>
 	<header>
-		<div class="relative bg-white">
+		<div class="relative xl:px-8 bg-white">
 			<div
 				class="
 					flex

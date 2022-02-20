@@ -38,7 +38,7 @@
 							</h2>
 							<p class="mt-4 lg:text-lg text-gray-500">
 								Hey, ich bin Marco und ich bin Personal
-								Trainer aus Hovelhöf im Kreis Paderborn. Ich
+								Trainer aus Hövelhof im Kreis Paderborn. Ich
 								helfe Menschen sich in ihrem Körper
 								wohlzufühlen.
 							</p>
